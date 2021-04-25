@@ -40,4 +40,4 @@ plt.xticks(rotation=90)
 # Save output
 figure = plt.gcf()
 figure.set_size_inches(8, 2)
-plt.savefig("floats_distribution.png", dpi=300)
+plt.savefig("floats_distribution.png", dpi=300, transparent=True)
