@@ -38,4 +38,4 @@ ax.tick_params('both', length=20, width=1, labelsize=9)
 plt.xticks(rotation=90)
 
 # Save output
-plt.savefig("floats_distribution.png", dpi=600)
+plt.savefig("floats_distribution.png", dpi=600, bbox_inches='tight')
